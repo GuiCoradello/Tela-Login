@@ -1,0 +1,48 @@
+.box__card--cads{
+  border: 1px solid;
+  border-radius: 8px;
+  margin: auto;
+  
+}
+
+.box--cadastro{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+}
+.titulo{
+  text-align: center;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  
+}
+.input__cads{
+  width: 250px;
+  height: 20px;
+}
+.input__cads--date{
+ width: 100px; 
+}
+.input__cads--senha{
+  width:180px;
+}
+.box--senha {
+  display: flex;
+  
+}
+.box--button {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.button--cads {
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+}

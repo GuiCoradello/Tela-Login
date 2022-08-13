@@ -1,0 +1,73 @@
+.box__card {
+  margin: 50px auto;
+  height: 250px;
+  width: 300px;
+}
+
+.box__card--login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 15px;
+
+}
+
+.box__card--login h2 {
+  margin-left: 15px;
+}
+
+.box__card--infos {
+
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin: 0 auto;
+
+}
+
+.fild__login {
+  display: flex;
+
+  height: 30px;
+}
+
+.text-forms {
+  align-self: center;
+}
+
+.card__login--senha input {
+  width: 180px;
+  height: 30px;
+
+
+}
+
+.card__login--submit {
+  width: 250px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+
+
+.mensagem--colorGreen {
+  color: green;
+}
+
+.mensagem--colorRed {
+  color: red;
+}
+
+.botao {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/content.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/card-login.css">
+  <link rel="stylesheet" href="./css/card-cadastro.css">
+</head>
+
+<body>
+  <header>
+    <nav class="box__nav">
+      <div class="nav--logo">Spacebook</div>
+      <div class="box__nav--select">
+        <button data-selectLogar class="nav--logar button">logar</button>
+        <button data-selectCads class="nav--cadastro button ">cadastrar</button>
+
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="content">
+    <div data-loginCard class="box__card  inative">
+
+      <div class="box__card--login ">
+        <h2>Spacebook</h2>
+        <div class="box__card--infos">
+
+          <div class="fild__login">
+            <label for="userMail" class="text-forms">E-mail:</label>
+            <input data-user class="input-forms" id="userMail" type="text" placeholder=" email cadastrado">
+          </div>
+
+          <div class="fild__login">
+            <label for="senha" class="text-forms">Senha:</label>
+            <input data-senha class="input-forms" id="senha" type="password" placeholder="Senha">
+          </div>
+
+        </div>
+
+        <div class="card__login--submit">
+          <button data-login class="botao">Entrar</button>
+          <div data-mensagemLogin class="card__login--message" ></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div data-cads class="box__card--cads inative ">
+      <div class="box--cadastro">
+        <div class="titulo">
+
+          <h2>Faça parte do nosso grupo</h2>
+        </div>
+        <div class="box ">
+          <label for="nomeCad">Nome Completo :</label>
+          <input id="nomeCad" data-cadName class="input__cads" type="text">
+        </div>
+        <div class="box">
+          <label for="dateCad">Data de Nascimento :</label>
+          <input id="dateCad" data-cadDate class="input__cads--date" type="date">
+        </div>
+        <div class="box">
+          <label for="mailCad">e-mail :</label>
+          <input id="mailCad" data-cadEmail class="input__cads" type="email">
+          <label for="mailConf">Confirmar e-mail :</label>
+          <input id="mailConf" data-cadEmailConfirm class="input__cads" type="email">
+        </div>
+        <div class=" box">
+          <label for="senhaCad">Senha :</label>
+          <input id="senhaCad" data-cadSenha class="input__cads--senha" type="password">
+          <label for="senhaConf">Confirmar Senha :</label>
+          <input id="senhaConf" data-cadSenhaConfirm class="input__cads--senha" type="password">
+        </div>
+        <div class="box--button">
+          <button data-cad class="button--cads">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  </section>
+
+
+
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
